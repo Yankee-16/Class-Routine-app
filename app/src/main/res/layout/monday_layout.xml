@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="8sp" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="150sp"
+        android:layout_width="match_parent"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/title7"
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wireless Programming"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                />
+
+            <TextView
+                android:id="@+id/code7"
+                android:layout_below="@id/title7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSE 334"
+                android:textSize="15dp"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/initial_label7"
+                android:layout_below="@+id/code7"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="wrap_content"
+                android:text="Teacher Initial"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/section_label7"
+                android:layout_below="@id/code7"
+                android:layout_toRightOf="@id/initial_label7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Section"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/initial7"
+                android:layout_below="@id/initial_label7"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="wrap_content"
+                android:text="MJM"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/section7"
+                android:layout_below="@id/section_label7"
+                android:layout_toRightOf="@id/initial7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O-12"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <ImageView
+                android:id="@+id/timeImage7"
+                android:layout_below="@id/initial7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/time"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/time7"
+                android:layout_below="@+id/initial7"
+                android:layout_toRightOf="@id/timeImage7"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:text="08:30 AM - 10:00 AM"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:padding="3dp"/>
+
+            <ImageView
+                android:id="@+id/roomImage7"
+                android:layout_below="@id/section7"
+                android:layout_toRightOf="@id/time7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/location"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/room7"
+                android:layout_below="@id/section7"
+                android:layout_toRightOf="@id/roomImage7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L-601 CSE"
+                android:textColor="@color/black"
+                android:padding="3dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="150sp"
+        android:layout_width="match_parent"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/title8"
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compiler Design"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                />
+
+            <TextView
+                android:id="@+id/code8"
+                android:layout_below="@id/title8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSE 331"
+                android:textSize="15dp"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/initial_label8"
+                android:layout_below="@+id/code8"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="wrap_content"
+                android:text="Teacher Initial"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/section_label8"
+                android:layout_below="@id/code8"
+                android:layout_toRightOf="@id/initial_label8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Section"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/initial8"
+                android:layout_below="@id/initial_label8"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="wrap_content"
+                android:text="TRA"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/section8"
+                android:layout_below="@id/section_label8"
+                android:layout_toRightOf="@id/initial8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O-12"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <ImageView
+                android:id="@+id/timeImage8"
+                android:layout_below="@id/initial8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/time"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/time8"
+                android:layout_below="@+id/initial8"
+                android:layout_toRightOf="@id/timeImage8"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:text="10:00 AM - 11:30 AM"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:padding="3dp"/>
+
+            <ImageView
+                android:id="@+id/roomImage8"
+                android:layout_below="@id/section8"
+                android:layout_toRightOf="@id/time8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/location"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/room8"
+                android:layout_below="@id/section8"
+                android:layout_toRightOf="@id/roomImage8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="902 DT"
+                android:textColor="@color/black"
+                android:padding="3dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="150sp"
+        android:layout_width="match_parent"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/title9"
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Financial and Managerial Accounting"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                />
+
+            <TextView
+                android:id="@+id/code9"
+                android:layout_below="@id/title9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACT 301"
+                android:textSize="15dp"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/initial_label9"
+                android:layout_below="@+id/code9"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="wrap_content"
+                android:text="Teacher Initial"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/section_label9"
+                android:layout_below="@id/code9"
+                android:layout_toRightOf="@id/initial_label9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Section"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/initial9"
+                android:layout_below="@id/initial_label9"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="wrap_content"
+                android:text="SMR"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/section9"
+                android:layout_below="@id/section_label9"
+                android:layout_toRightOf="@id/initial9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O-12"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <ImageView
+                android:id="@+id/timeImage9"
+                android:layout_below="@id/initial9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/time"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/time9"
+                android:layout_below="@+id/initial9"
+                android:layout_toRightOf="@id/timeImage9"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:text="11:30 AM - 01:00 PM"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:padding="3dp"/>
+
+            <ImageView
+                android:id="@+id/roomImage9"
+                android:layout_below="@id/section9"
+                android:layout_toRightOf="@id/time9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/location"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/room9"
+                android:layout_below="@id/section9"
+                android:layout_toRightOf="@id/roomImage9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="902 DT"
+                android:textColor="@color/black"
+                android:padding="3dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

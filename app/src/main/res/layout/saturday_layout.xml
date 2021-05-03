@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="8sp" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="150sp"
+        android:layout_width="match_parent"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/title1"
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Financial and Managerial Accounting"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                />
+
+            <TextView
+                android:id="@+id/code1"
+                android:layout_below="@id/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACT 301"
+                android:textSize="15dp"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/initial_label1"
+                android:layout_below="@+id/code1"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="wrap_content"
+                android:text="Teacher Initial"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/section_label1"
+                android:layout_below="@id/code1"
+                android:layout_toRightOf="@id/initial_label1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Section"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/initial1"
+                android:layout_below="@id/initial_label1"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="wrap_content"
+                android:text="SMR"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/section1"
+                android:layout_below="@id/section_label1"
+                android:layout_toRightOf="@id/initial1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O-12"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <ImageView
+                android:id="@+id/timeImage1"
+                android:layout_below="@id/initial1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/time"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/time1"
+                android:layout_below="@+id/initial1"
+                android:layout_toRightOf="@id/timeImage1"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:text="10:00 AM - 11:30 AM"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:padding="3dp"/>
+
+            <ImageView
+                android:id="@+id/roomImage1"
+                android:layout_below="@id/section1"
+                android:layout_toRightOf="@id/time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/location"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/room1"
+                android:layout_below="@id/section1"
+                android:layout_toRightOf="@id/roomImage1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="807 DT"
+                android:textColor="@color/black"
+                android:padding="3dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="150sp"
+        android:layout_width="match_parent"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/title2"
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compiler Design Lab"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                />
+
+            <TextView
+                android:id="@+id/code2"
+                android:layout_below="@id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSE 332"
+                android:textSize="15dp"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/initial_label2"
+                android:layout_below="@+id/code2"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="wrap_content"
+                android:text="Teacher Initial"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/section_label2"
+                android:layout_below="@id/code2"
+                android:layout_toRightOf="@id/initial_label2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Section"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/initial2"
+                android:layout_below="@id/initial_label2"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="wrap_content"
+                android:text="TRA"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/section2"
+                android:layout_below="@id/section_label2"
+                android:layout_toRightOf="@id/initial2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O-12"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <ImageView
+                android:id="@+id/timeImage2"
+                android:layout_below="@id/initial2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/time"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/time2"
+                android:layout_below="@+id/initial2"
+                android:layout_toRightOf="@id/timeImage2"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:text="11:30 AM - 02:30 PM"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:padding="3dp"/>
+
+            <ImageView
+                android:id="@+id/roomImage2"
+                android:layout_below="@id/section2"
+                android:layout_toRightOf="@id/time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/location"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/room2"
+                android:layout_below="@id/section2"
+                android:layout_toRightOf="@id/roomImage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L-801 CSE"
+                android:textColor="@color/black"
+                android:padding="3dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="150sp"
+        android:layout_width="match_parent"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/title3"
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Software Engineering"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                />
+
+            <TextView
+                android:id="@+id/code3"
+                android:layout_below="@id/title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSE 333"
+                android:textSize="15dp"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/initial_label3"
+                android:layout_below="@+id/code3"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="wrap_content"
+                android:text="Teacher Initial"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/section_label3"
+                android:layout_below="@id/code3"
+                android:layout_toRightOf="@id/initial_label3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Section"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/initial3"
+                android:layout_below="@id/initial_label3"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="wrap_content"
+                android:text="SI"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <TextView
+                android:id="@+id/section3"
+                android:layout_below="@id/section_label3"
+                android:layout_toRightOf="@id/initial3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O-12"
+                android:textSize="@dimen/_12sdp"
+                android:paddingLeft="3dp"
+                />
+
+            <ImageView
+                android:id="@+id/timeImage3"
+                android:layout_below="@id/initial3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/time"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/time3"
+                android:layout_below="@+id/initial3"
+                android:layout_toRightOf="@id/timeImage3"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:text="02:30 PM - 04:00 PM"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:padding="3dp"/>
+
+            <ImageView
+                android:id="@+id/roomImage3"
+                android:layout_below="@id/section3"
+                android:layout_toRightOf="@id/time3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/location"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/room3"
+                android:layout_below="@id/section3"
+                android:layout_toRightOf="@id/roomImage3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="804 DT"
+                android:textColor="@color/black"
+                android:padding="3dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
